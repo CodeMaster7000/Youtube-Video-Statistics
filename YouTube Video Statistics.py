@@ -14,7 +14,7 @@ def video_details():
 	title = video_response['items'][0]['snippet']['title']
 	likes = video_response['items'][0]['statistics']['likeCount']
 	views = video_response['items'][0]['statistics']['viewCount']
-	details.config(text=f"Title:- {title}\nLikes:- {likes}\nViews:- {views}")
+	details.config(text=f"Title: {title}\nLikes: {likes}\nViews: {views}")
 root = Tk()
 root.geometry("500x300")
 Label(root,text="Title, Views & Likes of a YouTube Video", fg="red",
