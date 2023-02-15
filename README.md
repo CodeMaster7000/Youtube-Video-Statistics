@@ -5,7 +5,7 @@ A Python program (using the `Tkinter` module) to fetch the title of a YouTube vi
 ## Prerequisites 
 
 - Python 3
-- `googleapiclient.discovery` module.
+- `googleapiclient.discovery` module
 
 ## Implementation
 
